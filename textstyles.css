@@ -1,0 +1,63 @@
+/* Genel yazı stilleri */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7; /* Arka plan rengini göz yormayacak şekilde ayarlayalım */
+    color: #333; /* Yazı rengini okunabilir koyu bir tonda tutalım */
+    font-size: 18px; /* Genel font boyutu */
+    line-height: 1.6; /* Satır aralığı, okuma rahatlığı için artırıldı */
+    padding: 20px;
+}
+
+/* Başlık stili */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #222;
+}
+
+/* Paragraflar için */
+p {
+    max-width: 800px; /* Metnin genişliği sınırlanarak okuma rahatlığı sağlanır */
+    margin: 0 auto 20px auto; /* Paragrafların üstünde ve altında boşluk bırakalım */
+    line-height: 1.8; /* Satır aralığını genişleterek metnin sıkışık olmasını önleyelim */
+    font-size: 1.125rem; /* Paragrafları bir tık büyütelim */
+    color: #555;
+    text-align: justify; /* Daha dengeli görünüm için justify uygulayalım */
+}
+
+/* Nav öğeleri */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand img {
+    max-width: 100%; /* Logo için responsive ayarı */
+}
+
+.nav-link {
+    color: #333;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Hero bölümü */
+section {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+/* Mobil cihazlarda başlık ve paragraf uyumu */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+}
