@@ -35,3 +35,10 @@ p {
 h4{
     text-align: center;
 }
+
+.accordion{
+  width: 1000px!important;
+  margin: 0 auto!important;
+  position: relative;
+  top: 50px;
+}
